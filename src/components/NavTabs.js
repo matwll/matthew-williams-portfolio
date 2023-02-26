@@ -4,7 +4,7 @@ import React from 'react';
 //and assign them to their own variable names
 function NavTabs({ currentPage, handlePageChange }) {
   return (
-    <ul className="nav nav-tabs">
+    <ul className="nav nav-tabs" id='nav-bar'>
       <li className="nav-item">
         <a
           href="#about"

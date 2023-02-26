@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   color: #6A2E35;
+  text-decoration: none;
 }
 
 .App {
@@ -45,14 +46,15 @@
 
 header, footer {
   background-color: #A6A6A8;
+  text-align: center;
 }
 
 footer {
+  display: flex;
   width: 100%;
   padding: 0;
   margin: 0;
-  text-align: center;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 h2 {
@@ -60,7 +62,22 @@ h2 {
 }
 
 .nav-tabs {
+  list-style-type: none;
+  text-decoration: none;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   size: 24px;
+}
+figure {
+  height: 200px;
+  width: 250px;
+  margin: 20px;
+}
+
+figcaption {
+  text-align: center;
+}
+
+.active {
+  font-weight: bold;
 }

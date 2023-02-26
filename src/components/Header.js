@@ -5,7 +5,7 @@ function Header ({ currentPage, handlePageChange }){
     return (
         <header>
             <h1>Matthew Williams</h1>
-            <NavTabs currentPage={currentPage} handlePageChange={handlePageChange}/>
+            <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
         </header>
     )
 };
