@@ -8,6 +8,7 @@ export default function Portfolio() {
   return (
     <div>
       <h2>Portfolio</h2>
+      <br></br>
       <figure>
         <figcaption>The Collar Club</figcaption>
         <a href="https://calm-ocean-49248.herokuapp.com/" target="_blank">
@@ -48,6 +49,63 @@ export default function Portfolio() {
         </a>
         <a
           href="https://github.com/matwll/weather-search-dashboard"
+          target="_blank"
+        >
+          Click here for the github repository
+        </a>
+      </figure>
+      <figure>
+        <figcaption>4th Project</figcaption>
+        <a
+          href=""
+          target="_blank"
+        >
+          <img
+            src=""
+            alt=""
+            width="100%"
+          />
+        </a>
+        <a
+          href=""
+          target="_blank"
+        >
+          Click here for the github repository
+        </a>
+      </figure>
+      <figure>
+        <figcaption>5th Project</figcaption>
+        <a
+          href=""
+          target="_blank"
+        >
+          <img
+            src=""
+            alt=""
+            width="100%"
+          />
+        </a>
+        <a
+          href=""
+          target="_blank"
+        >
+          Click here for the github repository
+        </a>
+      </figure>
+      <figure>
+        <figcaption>6th Project</figcaption>
+        <a
+          href=""
+          target="_blank"
+        >
+          <img
+            src=""
+            alt=""
+            width="100%"
+          />
+        </a>
+        <a
+          href=""
           target="_blank"
         >
           Click here for the github repository

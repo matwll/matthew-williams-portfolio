@@ -3,6 +3,11 @@
   padding: 0;
   color: #6A2E35;
   text-decoration: none;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+h1 {
+  font-family: 'Playball', cursive;
 }
 
 .App {
@@ -59,6 +64,7 @@ footer {
 
 h2 {
   background-color: #28232F;
+  text-align: center;
 }
 
 .nav-tabs {

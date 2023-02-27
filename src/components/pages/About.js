@@ -5,6 +5,7 @@ export default function About() {
     <div>
       <h2>About Me</h2>
       <p style={{backgroundColor: '#CECECE', fontSize: '16px', textAlign: "center"}}>
+      <br></br>
         {/*about me text here*/}
         <img src=""></img>
           Welcome to my Web Devlopment Portfolio. I moved to Washington about 5
