@@ -1,10 +1,11 @@
 import React, { useState } from "react";
-// import { validateEmail } from "../utils/validate";
+import { validateEmail } from "../utils/validate";
 
 export default function Contact() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
+  const [errorMessage, setErrorMessage] = useState('');
 
   const handleInputChange = (e) => {
     // Getting the value and name of the input which triggered the change
@@ -22,6 +23,21 @@ export default function Contact() {
     }
   };
 
+  const handleFormSubmit = (e) => {
+    // Preventing the default behavior of the form submit (which is to refresh the page)
+    e.preventDefault();
+
+    if (name || email || message === ''){
+      setErrorMessage('This field is required')
+    }else if (!validateEmail(email)){
+      setErrorMessage('Not a valid email');
+    }
+
+    setName('');
+    setEmail('');
+    setMessage('');
+  };
+
   return (
     <div>
       <h2>Contact</h2>
@@ -33,6 +49,7 @@ export default function Contact() {
           onChange={handleInputChange}
           type="text"
           placeholder="Name"
+          required
         />
         <input
           value={email}
@@ -40,6 +57,7 @@ export default function Contact() {
           onChange={handleInputChange}
           type="email"
           placeholder="Email"
+          required
         />
         <input
           value={message}
@@ -47,8 +65,15 @@ export default function Contact() {
           onChange={handleInputChange}
           type="text"
           placeholder="Message"
+          required
         />
+        <button type="button" onClick={handleFormSubmit}>Submit</button>
       </form>
+      {errorMessage && (
+        <div>
+          <p className="error-text">{errorMessage}</p>
+        </div>
+      )}
     </div>
   );
 }

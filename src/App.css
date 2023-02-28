@@ -87,3 +87,10 @@ figcaption {
 .active {
   font-weight: bold;
 }
+#self-picture {
+  height: 200px;
+  width: 175px;
+  margin: 20px;
+  border: 5px solid  #28232F;
+  border-radius: 50%;
+}

@@ -4,10 +4,10 @@ export default function About() {
   return (
     <div>
       <h2>About Me</h2>
-      <p style={{backgroundColor: '#CECECE', fontSize: '16px', textAlign: "center"}}>
-      <br></br>
+      <p style={{backgroundColor: '#CECECE', fontSize: '16px', textAlign: "center", padding: '20px'}}>
         {/*about me text here*/}
-        <img src=""></img>
+        <img src="images/doggos.jpg" id="self-picture"></img>
+        <br></br>
           Welcome to my Web Devlopment Portfolio. I moved to Washington about 5
           years ago since i love the cooler weather and rain. Currently I work
           at PPG as a Production Planner. I have 2 dog's (Addie and Aiden) who
