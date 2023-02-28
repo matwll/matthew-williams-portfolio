@@ -94,3 +94,12 @@ figcaption {
   border: 5px solid  #28232F;
   border-radius: 50%;
 }
+
+.card {
+  margin: 30px;
+  background-color: black;
+  text-align: center;
+}
+.card-title {
+  font-size: 32px;
+}
