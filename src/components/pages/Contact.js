@@ -53,9 +53,9 @@ export default function Contact() {
       {/*contact form here*/}
       <div className="card" style={{ color: "white"}}>
       <Form className="form-group">
-        <form className="form-group" as={Row}>
+        <form className="form-group">
         <input
-        className="form-control m-3"
+        className="form-control mt-4 mb-4"
           value={name}
           name="name"
           onChange={handleInputChange}
@@ -67,7 +67,7 @@ export default function Contact() {
         </form>
         <form as={Row} className="form-group">
         <input
-        className="form-control m-3"
+        className="form-control mt-4 mb-4"
           value={email}
           name="email"
           onChange={handleInputChange}
@@ -79,7 +79,7 @@ export default function Contact() {
         </form>
         <form as={Row} className="form-group">
         <input
-        className="form-control m-3"
+        className="form-control mt-4 mb-4"
           value={message}
           name="message"
           onChange={handleInputChange}
