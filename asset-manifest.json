@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.00329f12.css",
-    "main.js": "/static/js/main.70df1ceb.js",
-    "static/js/787.a4cb2932.chunk.js": "/static/js/787.a4cb2932.chunk.js",
-    "static/media/matthew-williams-resume.pdf": "/static/media/matthew-williams-resume.a94dfdcdab76ce7e07f9.pdf",
-    "index.html": "/index.html",
-    "main.00329f12.css.map": "/static/css/main.00329f12.css.map",
-    "main.70df1ceb.js.map": "/static/js/main.70df1ceb.js.map",
-    "787.a4cb2932.chunk.js.map": "/static/js/787.a4cb2932.chunk.js.map"
+    "main.css": "/matthew-williams-portfolio/static/css/main.00329f12.css",
+    "main.js": "/matthew-williams-portfolio/static/js/main.552f5274.js",
+    "static/js/787.a4cb2932.chunk.js": "/matthew-williams-portfolio/static/js/787.a4cb2932.chunk.js",
+    "static/media/matthew-williams-resume.pdf": "/matthew-williams-portfolio/static/media/matthew-williams-resume.a94dfdcdab76ce7e07f9.pdf",
+    "index.html": "/matthew-williams-portfolio/index.html",
+    "main.00329f12.css.map": "/matthew-williams-portfolio/static/css/main.00329f12.css.map",
+    "main.552f5274.js.map": "/matthew-williams-portfolio/static/js/main.552f5274.js.map",
+    "787.a4cb2932.chunk.js.map": "/matthew-williams-portfolio/static/js/787.a4cb2932.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.00329f12.css",
-    "static/js/main.70df1ceb.js"
+    "static/js/main.552f5274.js"
   ]
 }
