@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Row, Form, Button } from "react-bootstrap";
+import { Row, Form, Button, Card } from "react-bootstrap";
 import { validateEmail } from "../utils/validate";
 
 export default function Contact() {
@@ -51,9 +51,11 @@ export default function Contact() {
     <div>
       <h2>Contact</h2>
       {/*contact form here*/}
-      <Form>
-        <Form.Group as={Row}>
+      <div className="card" style={{ color: "white"}}>
+      <Form className="form-group">
+        <form className="form-group" as={Row}>
         <input
+        className="form-control m-3"
           value={name}
           name="name"
           onChange={handleInputChange}
@@ -62,9 +64,10 @@ export default function Contact() {
           onBlur={fieldState}
           required
         />
-        </Form.Group>
-        <Form.Group as={Row}>
+        </form>
+        <form as={Row} className="form-group">
         <input
+        className="form-control m-3"
           value={email}
           name="email"
           onChange={handleInputChange}
@@ -73,9 +76,10 @@ export default function Contact() {
           onBlur={fieldState}
           required
         />
-        </Form.Group>
-        <Form.Group as={Row}>
+        </form>
+        <form as={Row} className="form-group">
         <input
+        className="form-control m-3"
           value={message}
           name="message"
           onChange={handleInputChange}
@@ -84,9 +88,10 @@ export default function Contact() {
           onBlur={fieldState}
           required
         />
-        </Form.Group>
+        </form>
         <Button variant="primary" type="sumbit" onClick={handleFormSubmit}>Submit</Button>
       </Form>
+      </div>
       {errorMessage && (
         <div>
           <p className="error-text">{errorMessage}</p>
