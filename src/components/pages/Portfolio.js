@@ -16,9 +16,6 @@ export default function Portfolio() {
             className="card-image-top"
           ></img>
         </a>
-        <div className="card-body">
-          <p>heres some text about the project</p>
-        </div>
         <a
             href="https://github.com/walleric23/the-collar-club"
             target="_blank"
@@ -36,9 +33,6 @@ export default function Portfolio() {
             className="card-image-top"
           ></img>
         </a>
-        <div className="card-body">
-          <p>heres some text about the project</p>
-        </div>
         <a
             href="https://github.com/matwll/nearby-breweries" target="_blank"
           >
@@ -56,9 +50,6 @@ export default function Portfolio() {
             className="card-image-top"
           ></img>
         </a>
-        <div className="card-body">
-          <p>heres some text about the project</p>
-        </div>
         <a
             href="https://github.com/matwll/weather-search-dashboard"
           target="_blank"
@@ -76,9 +67,6 @@ export default function Portfolio() {
             className="card-image-top"
           ></img>
         </a>
-        <div className="card-body">
-          <p>heres some text about the project</p>
-        </div>
         <a
             href="https://github.com/matwll/tech-blog-posting"
             target="_blank"
@@ -96,9 +84,6 @@ export default function Portfolio() {
             className="card-image-top"
           ></img>
         </a>
-        <div className="card-body">
-          <p>heres some text about the project</p>
-        </div>
         <a
             href="https://github.com/matwll/timed-coding-quiz"
             target="_blank"
@@ -116,9 +101,6 @@ export default function Portfolio() {
             className="card-image-top"
           ></img>
         </a>
-        <div className="card-body">
-          <p>heres some text about the project</p>
-        </div>
         <a
             href="https://github.com/matwll/secure-password-generator"
             target="_blank"
