@@ -45,7 +45,7 @@ N/A
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Go to the webpage. Once there you can click any link in the header to be taken to that page of the application. If you click any image in the portfolio page it will take you to that deployed application. Also on the resume tab you can click the resume to open it and download if wanted.
+Go to the webpage. <a href="https://matwll.github.io/matthew-williams-portfolio/"></a> Once there you can click any link in the header to be taken to that page of the application. If you click any image in the portfolio page it will take you to that deployed application. Also on the resume tab you can click the resume to open it and download if wanted.
 
 <!-- CONTRIBUTORING -->
 ## Contributing
