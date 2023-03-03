@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Row, Form, Button, Card } from "react-bootstrap";
+import { Row, Form, Button } from "react-bootstrap";
 import { validateEmail } from "../utils/validate";
 
 export default function Contact() {

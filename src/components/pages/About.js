@@ -13,7 +13,7 @@ export default function About() {
         }}
       >
         {/*about me text here*/}
-        <img src="images/doggos.jpg" id="self-picture"></img>
+        <img src="images/doggos.jpg" alt="" id="self-picture"></img>
         <br></br>
         <span style={{ fontWeight: "bold" }}>Hello,</span>
         <br></br>I am Matthew Williams, a JR. Full Stack Web Developer. I have a
