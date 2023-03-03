@@ -1,9 +1,5 @@
 import React from "react";
 
-{
-  /*Portfolio conditionals and links/snapshots on this page*/
-}
-
 export default function Portfolio() {
   return (
     <div>
@@ -70,12 +66,12 @@ export default function Portfolio() {
             Click here for the github repository
           </a>
       </div>
-      {/*<div className="card">
-      <h5 className="card-title">The Collar Club</h5>
-        <a href="https://calm-ocean-49248.herokuapp.com/" target="_blank">
+      <div className="card">
+      <h5 className="card-title">Tech Blog</h5>
+        <a href="https://matwll.github.io/tech-blog-posting/" target="_blank">
           <img
-            src="/images/project2screenshot.jpg"
-            alt="The Collar Club"
+            src=""
+            alt="Tech Blog"
             width="100%"
             className="card-image-top"
           ></img>
@@ -84,18 +80,18 @@ export default function Portfolio() {
           <p>heres some text about the project</p>
         </div>
         <a
-            href="https://github.com/walleric23/the-collar-club"
+            href="https://github.com/matwll/tech-blog-posting"
             target="_blank"
           >
             Click here for the github repository
           </a>
       </div>
       <div className="card">
-      <h5 className="card-title">The Collar Club</h5>
-        <a href="https://calm-ocean-49248.herokuapp.com/" target="_blank">
+      <h5 className="card-title">Timed Coding Quit</h5>
+        <a href="https://matwll.github.io/timed-coding-quiz/" target="_blank">
           <img
-            src="/images/project2screenshot.jpg"
-            alt="The Collar Club"
+            src="/images/timed-quiz-screenshot.png"
+            alt="Timed Coding Quit"
             width="100%"
             className="card-image-top"
           ></img>
@@ -104,18 +100,18 @@ export default function Portfolio() {
           <p>heres some text about the project</p>
         </div>
         <a
-            href="https://github.com/walleric23/the-collar-club"
+            href="https://github.com/matwll/timed-coding-quiz"
             target="_blank"
           >
             Click here for the github repository
           </a>
       </div>
       <div className="card">
-      <h5 className="card-title">The Collar Club</h5>
-        <a href="https://calm-ocean-49248.herokuapp.com/" target="_blank">
+      <h5 className="card-title">Password Generator</h5>
+        <a href="https://matwll.github.io/secure-password-generator/" target="_blank">
           <img
-            src="/images/project2screenshot.jpg"
-            alt="The Collar Club"
+            src="/images/password-generator.png"
+            alt="Secure Password Generator"
             width="100%"
             className="card-image-top"
           ></img>
@@ -124,12 +120,12 @@ export default function Portfolio() {
           <p>heres some text about the project</p>
         </div>
         <a
-            href="https://github.com/walleric23/the-collar-club"
+            href="https://github.com/matwll/secure-password-generator"
             target="_blank"
           >
             Click here for the github repository
           </a>
-      </div> */}
+      </div>
       </div>
     </div>
   );

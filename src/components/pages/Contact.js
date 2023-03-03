@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Row, Form, Button } from "react-bootstrap";
 import { validateEmail } from "../utils/validate";
 
 export default function Contact() {
@@ -38,37 +39,54 @@ export default function Contact() {
     setMessage('');
   };
 
+  const fieldState = (e) => {
+    if (name || email || message === ''){
+      setErrorMessage('This field is required')
+    }else if (!validateEmail(email)){
+      setErrorMessage('Not a valid email');
+    }
+  };
+
   return (
     <div>
       <h2>Contact</h2>
       {/*contact form here*/}
-      <form>
+      <Form>
+        <Form.Group as={Row}>
         <input
           value={name}
           name="name"
           onChange={handleInputChange}
           type="text"
           placeholder="Name"
+          onBlur={fieldState}
           required
         />
+        </Form.Group>
+        <Form.Group as={Row}>
         <input
           value={email}
           name="email"
           onChange={handleInputChange}
           type="email"
           placeholder="Email"
+          onBlur={fieldState}
           required
         />
+        </Form.Group>
+        <Form.Group as={Row}>
         <input
           value={message}
           name="message"
           onChange={handleInputChange}
           type="text"
           placeholder="Message"
+          onBlur={fieldState}
           required
         />
-        <button type="button" onClick={handleFormSubmit}>Submit</button>
-      </form>
+        </Form.Group>
+        <Button variant="primary" type="sumbit" onClick={handleFormSubmit}>Submit</Button>
+      </Form>
       {errorMessage && (
         <div>
           <p className="error-text">{errorMessage}</p>
