@@ -17,7 +17,7 @@ import {
 const Header = () => (
   <Container>
     <Div1>
-      <Link href="/">
+      <Link href="/matthew-williams-portfolio/">
         <a style={{ display: "flex", alignItems: "center", color: "white" }}>
           <DiCssdeck size="3rem" /> <Span>Portfolio</Span>
         </a>
