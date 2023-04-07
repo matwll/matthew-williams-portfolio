@@ -53,8 +53,8 @@ export const projects = [
       "This is an early project I built that utilizes HTML, CSS, and Javascript. This project helped me learn and practice with intervals, as well as deconstructed loop to variable display questions and deduct time if the answer was wrong. I was also able to utilize a very basic toggle to switch back to the main screen after score was submitted.",
     image: "images/timed-quiz-screenshot.png",
     tags: ["React", "ChatEngine", "Firebase"],
-    source: "https://github.com/matwll/timed-coding-quiz",
-    visit: "https://matwll.github.io/timed-coding-quiz/",
+    source: "https://matwll.github.io/timed-coding-quiz/",
+    visit: "https://github.com/matwll/timed-coding-quiz",
     id: 5,
   },
 ];
