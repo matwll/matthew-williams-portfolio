@@ -10,22 +10,14 @@ export const projects = [
     id: 0,
   },
   {
-    title: "Me and Victoria",
-    description: "",
-    image: "images/meandvictoria.jpg",
-    tags: ["React", "ChatEngine", "Firebase"],
-    source: "",
-    visit: "",
+    title: "Property Rental App",
+    description:
+      "This app is very similar to Airbnb. It utilizes next.js 13, next-auth, leaflet, cloudinary, prisma, mongodb, and typescript. I worked with a video for most of this app which allowed me to spend alot of time debugging errors between their code and mine. Unfortuneatly i am currently having deployment issues with the 3 different kinds of logging in that I am working on.",
+    image: "images/airbnbclone.png",
+    tags: ["Next.js 13", "Prisma/MongoDB", "Leaflet", "Typescript"],
+    source: "https://property-rentals-project.vercel.app/",
+    visit: "https://github.com/matwll/airbnb-clone-app",
     id: 1,
-  },
-  {
-    title: "Doggos",
-    description: "",
-    image: "images/doggos.jpg",
-    tags: ["React", "ChatEngine", "Firebase"],
-    source: "",
-    visit: "",
-    id: 2,
   },
   {
     titles: "The Collar Club",
@@ -35,7 +27,7 @@ export const projects = [
     tags: ["Mysql", "Express", "Handlebars", "Node"],
     source: "https://calm-ocean-49248.herokuapp.com/",
     visit: "https://github.com/HunterHarvell/the-collar-club",
-    id: 3,
+    id: 2,
   },
   {
     title: "Meet Brewery",
@@ -45,7 +37,7 @@ export const projects = [
     tags: ["HTML", "CSS", "JavaScript"],
     source: "https://matwll.github.io/nearby-breweries/",
     visit: "https://github.com/matwll/nearby-breweries",
-    id: 4,
+    id: 3,
   },
   {
     title: "Timed Beginner Coding Quiz",
@@ -55,7 +47,7 @@ export const projects = [
     tags: ["React", "ChatEngine", "Firebase"],
     source: "https://matwll.github.io/timed-coding-quiz/",
     visit: "https://github.com/matwll/timed-coding-quiz",
-    id: 5,
+    id: 4,
   },
 ];
 
